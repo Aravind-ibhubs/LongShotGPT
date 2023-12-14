@@ -1,0 +1,57 @@
+.chatbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chatbox-query-box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.chatbox-query-answer {
+    height: 60%;
+    border: 2px solid #5dd4;
+    overflow: scroll;
+    margin-top: 20px;
+}
+.chatbox-submition {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.chatbox-question {
+    width: 60%;
+    padding: 10px;
+    border: none;
+}
+
+.question-box {
+    width: 65%;
+}
+
+.title-text {
+    border: none;
+    padding : 3px;
+}
+
+.title-box {
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.submit-button {
+    padding-top: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 7px;
+    border-radius: 4px;
+}

@@ -1,0 +1,21 @@
+.side-planel {
+  height: 90vh;
+  width: 15vw;
+  background-color: rgb(240, 240, 11);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active-box {
+  background-color: black;
+  color: aliceblue;
+}
+
+.new-query-button {
+  background-color: white;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
