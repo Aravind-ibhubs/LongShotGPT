@@ -20,7 +20,7 @@ const ChatBox = () => {
             method: 'POST',
             headers : {
               'Content-Type': 'application/json',
-              'Authorization': 'Bearer 3fa7588de00bdbc269159c5fc26dd3535ddce0b6'
+              'Authorization': "token"
             },
             body: JSON.stringify({"text": queryQuestion})
           }
